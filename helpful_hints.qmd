@@ -48,17 +48,17 @@ have a current version of `R`, `RStudio`, `pak` and the `Tidyverse` installed.
 
 [This document](https://rawcdn.githack.com/CTOpenData/r-user-group/dafba9abb8a82db57e41196c98cdffe897867052/install_intro_v3.html) 
 is a very *opinionated* set of instructions about installing  
-R/RStudio, pak, and the Tidyverse.  There are plenty of other opinions so please
-don't confuse my strong opinions with the *"one right way"* or the *"only
-way"*.
+R/RStudio, pak, and the Tidyverse.
 
 Note that this document may not suffice as a **"DIY"** resource. This document 
-is meant as a short tutorial outline and notes.
+is meant as a short tutorial outline and notes.  You're welcome to contact the 
+author for questions and assistance
 
 :::
 
 Already have `R` installed? **Hold on: This is a great time to make sure
 your `R` installation is current.** Check your current version like so:
+(Tired of typing? See @tip-copypaste you can just copy and paste)
 
 ```{r}
     R.version.string
@@ -85,9 +85,9 @@ The [documentation](https://docs.posit.co/ide/user/ide/get-started/#hello-rstudi
 suggests it and I'm going to ***strongly*** recommend
 using "projects".  Even if you think your work will be so simple that
 it won't need categorization I still recommend it!  It's a place to organize
-and just as importantly it will let RStudio help you be more efficient!
+and just as importantly it will let `RStudio` help you be more efficient!
 
-Let's create a new project with `File -> New Project`
+Let's create a new project with `File -> New Project...`
 
 ![Screenshot RStudio new project](hints_images/file_new_project.png)
 
@@ -95,16 +95,17 @@ The new project wizard will open...
 
 ![Screenshot showing project wizard](hints_images/type_of_projects.png)
 Choose the first option... `New Directory` and you should see a screen
-similar to this...
+similar to this... (See @tip-gitgithub for what version control is for).
 
 ![Screenshot showing project wizard](hints_images/project_details.png)
 
-
-Give your new project a meaningful name, even if it is a bit silly like this example.
+Give your new project a meaningful name, even if it is a bit silly like this 
+example. If you look using your operating system it really does
+create a new sub-directory.
 
 ::: {.callout-important}
 `R` and therefore `RStudio` are case sensitive. Also try to use spaces
-and special characters sparingly.  I strongly recommend using underscores
+and special characters sparingly.  I **strongly recommend** using underscores
 to separate words.
 :::
 
@@ -465,6 +466,16 @@ can easily cut and paste from the html into RStudio to
 
 Trying to cut and paste from `MS Word` is usually disastrous,
 way too many proprietary formatting glitches.
+
+:::
+
+
+::: {#tip-gitgithub .callout-tip}
+### If you work in a team
+
+Then learn how to use `git` and `github` soon.  If you have 
+more than 2 people in the team you'll very quickly learn
+that emailling around (or dropping into `Teams`) is a recipe for disaster!
 
 :::
 
