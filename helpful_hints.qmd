@@ -97,6 +97,11 @@ The new project wizard will open...
 Choose the first option... `New Directory` and you should see a screen
 similar to this... (See @tip-gitgithub for what version control is for).
 
+![Screenshot showing project wizard](hints_images/project_wizard_types.png)
+
+So many options!  Sorry, not sorry, as you grow accustomed to RStudio
+you'll grow to love the many options.  But for now choose `New Project`.
+
 ![Screenshot showing project wizard](hints_images/project_details.png)
 
 Give your new project a meaningful name, even if it is a bit silly like this 
@@ -111,14 +116,29 @@ to separate words.
 
 ***Decision Time*** I encourage you to store all your R projects in one
 place.  In my case regardless of OS I always put a folder on the Desktop
-and label it.  You can use the browse button to do that now.
+and label it.  You can use the browse button to do that now. Here's what mine 
+looks like on a windows machine 
 
-Windows and download it.
-**Please make sure you remember where** the downloaded installer is...
+![Project meta directory](hints_images/example_proj_directory.png)
 
-![Screenshot showing CRAN download version](img/r_download_version.png)
+when you press the `Create Project` button there will be a very short
+pause and you'll have a new project.
 
-### Start the installer
+Follow this process **every time** you start a new work flow.
+
+Want to switch between projects?  That's what `Open Project...` and
+`Recent Projects` are for.
+
+What's in a project?  It's actually a directory on your file system.
+It should contain everything you need for your projects, the data, the scripts,
+any saved objects, a history of your work, etc.. On Windows it looks like ...
+
+![Project directory on Windows](hints_images/sample_proj_directory.png)
+
+
+
+
+### Customize your experience
 
 Start the installation process by double clicking on the downloaded
 file.  You are likely to get messages about allowing the software
