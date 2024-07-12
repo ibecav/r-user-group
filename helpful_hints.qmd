@@ -136,7 +136,20 @@ any saved objects, a history of your work, etc.. On Windows it looks like ...
 ![Project directory on Windows](hints_images/sample_proj_directory.png)
 
 
+### Shortcuts can be useful
 
+One of the advantages of using "projects" in RStudio is the ability it
+gives you to create shortcuts to get to the exact project you need.
+
+For example, in my case, I like having choices.  So on a windows machine
+I create a folder for all my projects, I have a short cut to start `RStudio`
+without specifying any particular project (more on that in a bit), and you
+can create one or more shortcuts to specific projects so that it looks like
+this screen shot...
+
+![Shortcuts on Windows desktop](hints_images/Shortcuts_windows.png)
+
+Totally optional but in my case a real time saver.
 
 ### Customize your experience
 
@@ -498,6 +511,17 @@ more than 2 people in the team you'll very quickly learn
 that emailling around (or dropping into `Teams`) is a recipe for disaster!
 
 :::
+
+
+::: {#tip-short_cuts .callout-tip}
+### Shortcuts can be useful
+
+One of the advantages of using "projects" in RStudio is the ability it
+gives you to create shortcuts to get to the exact project you need.
+
+:::
+
+
 
 fini
 
