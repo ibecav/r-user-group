@@ -43,7 +43,7 @@ pat on the back once you get through this. And you **WILL** get through
 this.
 
 ::: {.callout-note}
-For these sessions I'm going to start with the assumption that you 
+This document assumes that you 
 have a current version of `R`, `RStudio`, `pak` and the `Tidyverse` installed.
 
 [This document](https://rawcdn.githack.com/CTOpenData/r-user-group/dafba9abb8a82db57e41196c98cdffe897867052/install_intro_v3.html) 
@@ -145,28 +145,49 @@ For example, in my case, I like having choices.  So on a windows machine
 I create a folder for all my projects, I have a short cut to start `RStudio`
 without specifying any particular project (more on that in a bit), and you
 can create one or more shortcuts to specific projects so that it looks like
-this screen shot...
+this screen shot... From left to right there's the folder that encapsulates
+all my projects, the desktop shortcut to launch RStudio and a shortcut
+to launch the example project in this documentation.
 
 ![Shortcuts on Windows desktop](hints_images/Shortcuts_windows.png)
 
 Totally optional but in my case a real time saver.
 
-### Customize your experience
+## Customize your experience
 
-Start the installation process by double clicking on the downloaded
-file.  You are likely to get messages about allowing the software
-access.
+As is the case with most modern software `RStudio` has a plethora of user
+options that you can customize to your heart's content. The default settings 
+are quite rational but we're going to make a few key tweaks.
 
-The `R` installer comes with default settings that are quite rational
-but we're going to make a few key tweaks during the process.
+There are two levels of options in `RStudio`, `Global` and `Project` as
+the names imply you can have options that only apply to specific projects,
+but let's focus on options that apply globally.  Please select
+`Tools -> Options`.
 
-![Screenshot showing Installer](img/r_install_destination.png)
+![Screenshot showing Tools -> Options](hints_images/global_options.png)
+
+The single most important option to set is right there on the very
+first screen you see, but it is a bit perplexing to new users so some
+explanation is warranted.
+
+![Screenshot showing General Basic Options](hints_images/basic1.png)
+
 
 ::: {.callout-important}
-You may be tempted to install `R` on a network or virtual drive like 
-`OneDrive`. I **strongly** discourage you from installing anywhere other 
-than your local C: drive or other OS equivalent!
+You may be tempted to think you want to "always" save your workspace on exit. 
+I mean who doesn't want to save their work right? The problem is that doesn't
+mean what you think it means (*Princess Bride* reference).  The problem
+is you will be saving some `R` objects but not leaving yourself in a 
+reproducible state.  And if the things you are save are large, it will feel 
+sooooooo slow. I **strongly** encourage you to select "never"!
+
+While you're at it make sure you are saving your "History" as shown.
+
+And if you followed my advice to keep all your projects in one place
+might as well handle that too.
 :::
+
+Click on `Apply` when you're done.
 
 ### Key installer options
 
